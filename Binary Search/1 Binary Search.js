@@ -5,7 +5,8 @@ const binarySearch = (arr, target) => {
 
   while (left <= right) {
     middle = Math.floor(left + (right - left) / 2);
-    if (arr[middle] === target) return middle;
+    if (target === arr[middle]) return middle;
+
     if (target < arr[middle]) right = middle - 1;
     else left = left + 1;
   }
