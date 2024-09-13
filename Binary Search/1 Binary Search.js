@@ -1,3 +1,5 @@
-const binarySearch = (arr, target) => {return arr.indexOf(target)}
+const binarySearch = (arr, target) => {
+  return arr.indexOf(target);
+};
 
 module.exports = binarySearch;

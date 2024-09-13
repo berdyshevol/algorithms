@@ -1,4 +1,4 @@
-const {describe, test, expect} = require("@jest/globals");
+const { describe, test, expect } = require("@jest/globals");
 const binarySearch = require("../1 Binary Search");
 
 describe("binarySearch", () => {
@@ -9,5 +9,4 @@ describe("binarySearch", () => {
     const expected = 2;
     expect(result).toBe(expected);
   });
-})
-
+});
